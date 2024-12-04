@@ -1,12 +1,24 @@
-# Starter Next/Hardhat Project
+# Ethereum Multiplication and Division Project
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+## Overview
+This project is a simple Ethereum-based application that performs multiplication and division operations using a Solidity smart contract deployed on the blockchain. Users can interact with the contract via a web-based interface implemented with React and ethers.js.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Features
+- Perform multiplication and division operations on two integers.
+- View the result of the last operation.
+- Connect to the Ethereum blockchain via MetaMask.
+- Automatically fetch the result from the smart contract.
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+## Technologies Used
+- **Solidity**: For the smart contract.
+- **Hardhat**: For development and testing of the smart contract.
+- **React**: For the frontend.
+- **ethers.js**: To interact with the Ethereum blockchain.
+- **MetaMask**: As a browser-based wallet to connect to the blockchain.
+
+---
+
+## Prerequisites
+1. **Node.js and npm**: Ensure you have Node.js (v16 or later) installed.
+2. **MetaMask**: Install the MetaMask extension in your browser.
+3. **Hardhat**: Install globally or in the project directory.
